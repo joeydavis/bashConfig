@@ -12,4 +12,4 @@ alias path='echo -e ${PATH//:/\\n}'
 alias qs="qstat -a -u $USER -n"
 alias garibaldi="ssh -Y jhdavis@garibaldi.scripps.edu"
 alias vi="vim"
-alias ipynb="ipython notebook pylab=inline"
+alias ipynb="cd ~/scripts/python/iPyNBs && ipython notebook pylab=inline&"
