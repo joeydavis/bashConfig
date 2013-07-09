@@ -187,9 +187,9 @@ function prompt  {
 }
 
 case $HOSTNAME in
-    dhcp*)      prompt K;;
-    garibaldi*) prompt W;;
-    *)          prompt K;;
+    dhcp*)      prompt R;;
+    garibaldi*) prompt B;;
+    *)          prompt R;;
 esac
 
 unset prompt

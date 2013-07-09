@@ -37,16 +37,16 @@ export HISTTIMEFORMAT="%Y/%m/%d %H:%M:%S:  "
 export PROMPT_COMMAND='history -a'
 export PROMPT_DIRTRIM=3
 
-PATH=$PATH:/gpfs/group/williamson/bin
 PATH=$HOME/usr/local/bin:$PATH
 
 MANPATH=$MANPATH:$HOME/usr/local/man
 MANPATH=$MANPATH:$HOME/usr/local/share/man
 
-export MASSACRE_PATH=$HOME/software/massacre_devel
 export PERL5LIB
 
-export PYTHONPATH=$PYTHONPATH:$HOME/scripts/qMSModule/
 
-module load massacre
-module load python-addons
+export PYTHONPATH=$PYTHONPATH:$HOME/scripts/python/modules/vizLib/
+export PYTHONPATH=$PYTHONPATH:$HOME/scripts/python/modules/qMSModule/
+
+
+
